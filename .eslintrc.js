@@ -17,6 +17,8 @@ module.exports = {
     'no-console': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/no-unescaped-entities': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
 
     'react/display-name': 'off',
     'react/jsx-curly-brace-presence': [
@@ -26,7 +28,7 @@ module.exports = {
 
     //#region  //*=========== Unused Import ===========
     '@typescript-eslint/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'warn',
+    'unused-imports/no-unused-imports': 'off',
     'unused-imports/no-unused-vars': [
       'warn',
       {
